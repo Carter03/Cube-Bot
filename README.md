@@ -22,7 +22,6 @@ The goal is to build a machine that takes a scrambled 3x3 Rubik's Cube and solve
 
 ## How It Works
 
-The solving process follows a clear, step-by-step workflow:
 
 1.  **Scanning Phase:** The robot holds the cube, and the ESP32-CAM captures images of faces from each side. The robot performs specific turns to reveal all six sides to the top-mounted camera without moving the camera itself.
 2.  **Data Transmission:** The captured image data is sent to a paired PC over a Bluetooth connection.
