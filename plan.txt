@@ -1,0 +1,13 @@
+PLAN
+
+1. Power on, power LED on
+2. Push button, processing LED slow blink
+    2a. Turn sides, take photo, send to PC
+    2b. Revert to original state
+3. Await solution from PC, processing LED fast blink
+4. Await button, processing LED solid
+5. Solve cube
+
+
+CPP
+     
