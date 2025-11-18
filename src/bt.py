@@ -36,3 +36,6 @@ class SerialReceiver:
 
     def transmit_config(self):
         self.ser.write(b"config\x00")
+
+    def transmit_soln(self, soln):
+        self.ser.write(soln.encode())
